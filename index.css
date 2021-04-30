@@ -1,0 +1,62 @@
+.icons
+{
+    height: 120px;
+    box-shadow:2px 5px 20px 1px gray;
+}
+
+.images
+{
+    height:85px;
+    box-shadow:2px 5px 20px 1px gray;
+}
+
+@media only screen and (min-width: 400px) {
+  .icons {
+    width: 30%
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .icons {
+    width: 23%
+        
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .icons {
+    width: 100%
+  }
+}
+
+.images:hover
+{
+    
+    zoom:200%;
+    cursor: pointer;
+   
+}
+.icons:hover
+{    
+    zoom:150%;
+    cursor: pointer;
+   
+}
+
+
+.line {
+  height: 39px;
+  border-bottom: 2px solid white;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  display: inline-block;
+  border: 19px solid transparent;
+  border-bottom-color: white;
+  left: 50%;
+  top: 28px;
+  width: 20px;
+  height: 20px;
+}
